@@ -16,7 +16,7 @@ people = os.listdir(dataset_path)
 # Start webcam
 cap = cv2.VideoCapture(0)
 
-print("🔍 Starting webcam. Press 'q' to quit.")
+print("🔍 Starting webcam. Press 'q' to quit...")
 
 while True:
     ret, frame = cap.read()
